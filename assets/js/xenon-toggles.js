@@ -115,16 +115,15 @@
 			{
 				ev.preventDefault();
 
+
 				if(public_vars.$sidebarMenu.hasClass('collapsed'))
 				{
 					public_vars.$sidebarMenu.removeClass('collapsed');
-					public_vars.$sidebarMenu.css('width', '280px');
 					ps_init();
 				}
 				else
 				{
 					public_vars.$sidebarMenu.addClass('collapsed');
-					public_vars.$sidebarMenu.css('width', '65px');
 					ps_destroy();
 				}
 

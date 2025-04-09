@@ -2,186 +2,26 @@
 <html lang="zh">
 
 <head>
-    <!-- 移除 Google Fonts，使用本地字体 -->
-    <style>
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-    </style>
-    
+    <script async src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" >
+    </script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8550836177608334",
+        enable_page_level_ads: true
+    });
+    </script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c05bb16ea908292af9f6c513087a1cc3";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- 条件加载广告和统计脚本 -->
-    <script>
-    // 检测是否可以快速访问Google服务
-    function checkGoogleAccess() {
-        return new Promise((resolve) => {
-            const start = Date.now();
-            const img = new Image();
-            img.onload = function() {
-                const time = Date.now() - start;
-                resolve(time < 1000);
-            };
-            img.onerror = function() {
-                resolve(false);
-            };
-            img.src = 'https://www.google.com/favicon.ico?' + start;
-            setTimeout(() => resolve(false), 1000);
-        });
-    }
-
-    // 根据访问速度决定加载哪些资源
-    async function loadResources() {
-        const canAccessGoogle = await checkGoogleAccess();
-        
-        if (canAccessGoogle) {
-            // 加载Google相关资源
-            const adsScript = document.createElement('script');
-            adsScript.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
-            adsScript.async = true;
-            document.head.appendChild(adsScript);
-            
-            const analyticsScript = document.createElement('script');
-            analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-111463289-1';
-            analyticsScript.async = true;
-            document.head.appendChild(analyticsScript);
-        }
-        
-        // 始终加载百度统计，因为在国内
-        var _hmt = _hmt || [];
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?c05bb16ea908292af9f6c513087a1cc3";
-        hm.async = true;
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-    }
-
-    // 页面加载完成后执行资源加载
-    window.addEventListener('load', loadResources);
-    </script>
-    
-    <meta http-equiv="Cache-Control" content="max-age=31536000">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta name="theme-color" content="#ffffff">
-    
-    <!-- 预加载关键资源 -->
-    <link rel="preload" href="../assets/js/jquery-1.11.1.min.js" as="script">
-    <link rel="preload" href="../assets/css/bootstrap.css" as="style">
-    <link rel="preload" href="../assets/css/xenon-core.css" as="style">
-    
-    <!-- 预加载字体 -->
-    <link rel="preload" href="../assets/css/fonts/fontawesome/fonts/fontawesome-webfont.woff2" as="font" type="font/woff2" crossorigin>
-    
-    <!-- Critical CSS -->
-    <style>
-    /* 关键渲染路径CSS */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    .page-container {
-        display: flex;
-        min-height: 100vh;
-    }
-    .main-content {
-        flex: 1;
-        padding: 20px;
-    }
-    .xe-widget {
-        background: #fff;
-        padding: 15px;
-        margin-bottom: 20px;
-        border-radius: 4px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-    }
-    </style>
-    
-    <!-- Defer non-critical CSS -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="../assets/css/xenon-core.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="../assets/css/xenon-components.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="../assets/css/xenon-skins.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="../assets/css/nav.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css" media="print" onload="this.media='all'">
-    <noscript>
-        <link rel="stylesheet" href="../assets/css/bootstrap.css">
-        <link rel="stylesheet" href="../assets/css/xenon-core.css">
-        <link rel="stylesheet" href="../assets/css/xenon-components.css">
-        <link rel="stylesheet" href="../assets/css/xenon-skins.css">
-        <link rel="stylesheet" href="../assets/css/nav.css">
-        <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
-        <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
-    </noscript>
-    
-    <style>
-    /* 优化图片加载样式 */
-    .lozad {
-        opacity: 1;
-        transition: opacity 0.3s ease-in-out;
-        min-height: 40px;
-        min-width: 40px;
-        background: url('../assets/images/loading.gif') center center no-repeat;
-        background-size: 20px;
-    }
-    .lozad[data-loaded="true"] {
-        background: none;
-    }
-    
-    /* 添加图片容器预设尺寸，避免布局偏移 */
-    .xe-user-img {
-        width: 40px;
-        height: 40px;
-        display: block;
-        position: relative;
-        overflow: hidden;
-    }
-    
-    /* 优化图片显示效果 */
-    .img-circle {
-        border-radius: 50%;
-        object-fit: cover;
-    }
-    
-    /* 添加图片加载动画 */
-    @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-    }
-    
-    .loaded {
-        animation: fadeIn 0.5s ease-in-out;
-    }
-    </style>
-    
-    <!-- 预加载常用图片 -->
-    <link rel="preload" as="image" href="../assets/images/loading.gif">
-    
-    <!-- 添加图片加载优化脚本 -->
-    <script>
-    // 图片加载失败后的处理
-    function handleImageError(img) {
-        img.onerror = null;
-        img.src = '../assets/images/default.png';
-    }
-    
-    // 优化图片加载
-    document.addEventListener('DOMContentLoaded', function() {
-        document.querySelectorAll('img.lozad').forEach(img => {
-            img.onerror = () => handleImageError(img);
-        });
-    });
-    </script>
-    
-    <!-- Preconnect to external domains -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://pagead2.googlesyndication.com">
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="preconnect" href="https://hm.baidu.com">
-    
     <meta name="author" content="viggo" />
     <title>WebStack.cc - 设计师网址导航</title>
     <meta name="keywords" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,交互设计师网址导航,www.webstack.cc">
@@ -195,73 +35,6 @@
     <link rel="stylesheet" href="../assets/css/xenon-components.css">
     <link rel="stylesheet" href="../assets/css/xenon-skins.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
-    
-    <!-- 自定义样式覆盖 -->
-    <style>
-    /* 侧边栏样式优化 */
-    .sidebar-menu {
-        background: #ffffff !important;
-    }
-    
-    .sidebar-menu .logo-env {
-        border-bottom: 1px solid #f3f3f3 !important;
-    }
-    
-    .sidebar-menu .main-menu a {
-        color: #666666 !important;
-        border-bottom: 1px solid #f3f3f3 !important;
-    }
-    
-    .sidebar-menu .main-menu a:hover {
-        color: #5095d5 !important;
-        background-color: #f9f9f9 !important;
-    }
-    
-    .sidebar-menu .main-menu li.active > a {
-        color: #5095d5 !important;
-        background-color: #f9f9f9 !important;
-    }
-    
-    .sidebar-menu .main-menu li.has-sub > a:before {
-        color: #999999 !important;
-    }
-    
-    .sidebar-menu .logo-env .settings-icon a {
-        color: #666666 !important;
-    }
-    
-    .sidebar-menu .logo-env .settings-icon a:hover {
-        color: #5095d5 !important;
-    }
-
-    /* 改善滚动条样式 */
-    .sidebar-menu .ps-scrollbar-y-rail .ps-scrollbar-y {
-        background-color: #dddddd !important;
-    }
-    
-    /* 优化子菜单样式 */
-    .sidebar-menu .main-menu ul li a {
-        background-color: #ffffff !important;
-        color: #666666 !important;
-    }
-    
-    .sidebar-menu .main-menu ul li a:hover {
-        color: #5095d5 !important;
-        background-color: #f9f9f9 !important;
-    }
-    
-    /* 优化移动端样式 */
-    @media screen and (max-width: 768px) {
-        .sidebar-menu {
-            background: #ffffff !important;
-        }
-        
-        .sidebar-menu .main-menu.mobile-is-visible {
-            background: #ffffff !important;
-        }
-    }
-    </style>
-    
     <script src="../assets/js/jquery-1.11.1.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -2264,7 +2037,7 @@
                                 <a href="#" class="xe-user-name overflowClip_1">
                                     <strong>Typekit</strong>
                                 </a>
-                                <p class="overflowClip_2">Quality fonts from the world's best foundries.</p>
+                                <p class="overflowClip_2">Quality fonts from the world’s best foundries.</p>
                             </div>
                         </div>
                     </div>
@@ -4098,7 +3871,7 @@
                                 <a href="#" class="xe-user-name overflowClip_1">
                                     <strong>Smashing Magazine</strong>
                                 </a>
-                                <p class="overflowClip_2">Below you'll find the best tips to take not only your UX design process but also the experiences you craft to the next level.</p>
+                                <p class="overflowClip_2">Below you’ll find the best tips to take not only your UX design process but also the experiences you craft to the next level.</p>
                             </div>
                         </div>
                     </div>
@@ -4441,8 +4214,17 @@
             <!-- Or class "fixed" to  always fix the footer to the end of page -->
             <footer class="main-footer sticky footer-type-1">
                 <div class="footer-inner">
+                    <!-- Add your copyright text here -->
                     <div class="footer-text">
-                        <!-- 删除版权信息 -->
+                        &copy; 2017-2022
+                        <a href="../cn/about.html"><strong>WebStack</strong></a> design by <a href="https://www.viggoz.com" target="_blank"><strong>Viggo</strong></a>
+                        <!--  - Purchase for only <strong>23$</strong> -->
+                    </div>
+                    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="fa-angle-up"></i>
+                        </a>
                     </div>
                 </div>
             </footer>
@@ -4451,65 +4233,52 @@
     <!-- 锚点平滑移动 -->
     <script type="text/javascript">
     $(document).ready(function() {
-        // 修复下拉菜单
-        $('.has-sub').on('click', function(e){
-            e.preventDefault();
-            e.stopPropagation();
-            
-            var $this = $(this);
-            var $ul = $this.children('ul');
-            
-            if(!$this.hasClass('expanded')) {
-                // 关闭其他展开的菜单
-                $('.has-sub.expanded').not($this).removeClass('expanded').children('ul').slideUp(300);
-                
-                // 展开当前菜单
-                $this.addClass('expanded');
-                $ul.slideDown(300);
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
+
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
             } else {
-                // 收起当前菜单
-                $this.removeClass('expanded');
-                $ul.slideUp(300);
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
             }
-        });
-
-        // 点击子菜单项时阻止事件冒泡
-        $('.has-sub ul li').on('click', function(e){
-            e.stopPropagation();
-        });
-
-        // 点击页面其他地方时收起所有菜单
-        $(document).on('click', function(e){
-            if(!$(e.target).closest('.has-sub').length) {
-                $('.has-sub.expanded').removeClass('expanded').children('ul').slideUp(300);
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
             }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
         });
-
-        // 平滑滚动
         $("a.smooth").click(function(ev) {
             ev.preventDefault();
-            
-            // 关闭移动端菜单
-            public_vars.$mainMenu.add(public_vars.$sidebarProfile).removeClass('mobile-is-visible');
-            ps_destroy();
-            
-            // 滚动到目标位置
-            var target = $($(this).attr("href"));
-            if(target.length) {
-                $("html, body").animate({
-                    scrollTop: target.offset().top - 30
-                }, {
-                    duration: 500,
-                    easing: "swing"
-                });
-            }
-        });
 
-        // 激活菜单项
-        $("#main-menu li ul li").click(function() {
-            $(this).siblings('li').removeClass('active');
-            $(this).addClass('active');
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
         });
+        return false;
     });
 
     var href = "";
@@ -4525,92 +4294,15 @@
     });
     </script>
     <!-- Bottom Scripts -->
-    <script defer src="../assets/js/bootstrap.min.js"></script>
-    <script defer src="../assets/js/TweenMax.min.js"></script>
-    <script defer src="../assets/js/resizeable.js"></script>
-    <script defer src="../assets/js/joinable.js"></script>
-    <script defer src="../assets/js/xenon-api.js"></script>
-    <script defer src="../assets/js/xenon-toggles.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/TweenMax.min.js"></script>
+    <script src="../assets/js/resizeable.js"></script>
+    <script src="../assets/js/joinable.js"></script>
+    <script src="../assets/js/xenon-api.js"></script>
+    <script src="../assets/js/xenon-toggles.js"></script>
     <!-- JavaScripts initializations and stuff -->
-    <script defer src="../assets/js/xenon-custom.js"></script>
-    <script defer src="../assets/js/lozad.js"></script>
-    <script>
-        // Initialize lazy loading with better configuration
-        document.addEventListener('DOMContentLoaded', function() {
-            const observer = lozad('.lozad', {
-                rootMargin: '50px 0px',
-                threshold: 0.1,
-                loaded: function(el) {
-                    el.classList.add('loaded');
-                }
-            });
-            observer.observe();
-        });
-    </script>
-    <!-- 注册Service Worker -->
-    <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('../assets/js/sw.js').then(function(registration) {
-                console.log('ServiceWorker registration successful');
-            }).catch(function(err) {
-                console.log('ServiceWorker registration failed: ', err);
-            });
-        });
-    }
-    </script>
-    <!-- 动态加载脚本 -->
-    <script>
-    // 动态加载非关键脚本
-    function loadScript(src, async = true) {
-        return new Promise((resolve, reject) => {
-            const script = document.createElement('script');
-            script.src = src;
-            script.async = async;
-            script.onload = resolve;
-            script.onerror = reject;
-            document.body.appendChild(script);
-        });
-    }
-
-    // 注册Service Worker
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('../assets/js/sw.js');
-        });
-    }
-
-    // 优化资源加载顺序
-    document.addEventListener('DOMContentLoaded', async function() {
-        // 首先加载核心功能所需的脚本
-        await loadScript('../assets/js/jquery-1.11.1.min.js', false);
-        
-        // 并行加载其他脚本
-        Promise.all([
-            loadScript('../assets/js/bootstrap.min.js'),
-            loadScript('../assets/js/lozad.js')
-        ]).then(() => {
-            // 初始化懒加载
-            const observer = lozad('.lozad', {
-                rootMargin: '50px 0px',
-                threshold: 0.1
-            });
-            observer.observe();
-        });
-
-        // 延迟加载非关键脚本
-        setTimeout(() => {
-            Promise.all([
-                loadScript('../assets/js/TweenMax.min.js'),
-                loadScript('../assets/js/resizeable.js'),
-                loadScript('../assets/js/joinable.js'),
-                loadScript('../assets/js/xenon-api.js'),
-                loadScript('../assets/js/xenon-toggles.js'),
-                loadScript('../assets/js/xenon-custom.js')
-            ]);
-        }, 2000);
-    });
-    </script>
+    <script src="../assets/js/xenon-custom.js"></script>
+    <script src="../assets/js/lozad.js"></script>
 </body>
 
 </html>

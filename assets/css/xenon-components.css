@@ -4256,40 +4256,6 @@ button.toast-close-button {
     color: #fff
 }
 
-.xe-widget.xe-counter.xe-counter-orange .xe-icon i,
-.xe-widget.xe-counter-block .xe-upper.xe-counter-orange .xe-icon i,
-.xe-widget.xe-progress-counter .xe-upper.xe-counter-orange .xe-icon i {
-    background-color: #f7aa47;
-    color: #fff
-}
-
-.xe-widget.xe-counter.xe-counter-yellow .xe-icon i,
-.xe-widget.xe-counter-block .xe-upper.xe-counter-yellow .xe-icon i,
-.xe-widget.xe-progress-counter .xe-upper.xe-counter-yellow .xe-icon i {
-    background-color: #fcd036;
-    color: #fff
-}
-
-.xe-widget.xe-counter.xe-counter-turquoise .xe-icon i,
-.xe-widget.xe-counter-block .xe-upper.xe-counter-turquoise .xe-icon i,
-.xe-widget.xe-progress-counter .xe-upper.xe-counter-turquoise .xe-icon i {
-    background-color: #00b19d;
-    color: #fff
-}
-
-.xe-widget.xe-counter.xe-counter-white .xe-icon i,
-.xe-widget.xe-counter-block .xe-upper.xe-counter-white .xe-icon i,
-.xe-widget.xe-progress-counter .xe-upper.xe-counter-white .xe-icon i {
-    background-color: #fff;
-    color: #4b4b4b
-}
-
-.xe-widget.xe-counter.xe-counter-white .xe-icon i,
-.xe-widget.xe-counter-block .xe-upper.xe-counter-white .xe-icon i,
-.xe-widget.xe-progress-counter .xe-upper.xe-counter-white .xe-icon i {
-    border: 1px solid #ddd
-}
-
 .xe-widget.xe-counter.xe-counter-gray .xe-icon i,
 .xe-widget.xe-counter-block .xe-upper.xe-counter-gray .xe-icon i,
 .xe-widget.xe-progress-counter .xe-upper.xe-counter-gray .xe-icon i {
@@ -6960,8 +6926,8 @@ button.toast-close-button {
 }
 
 .sidebar-user-info {
-    background-color: #27292a;
-    border-bottom: 1px solid #323435
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e1e1e1
 }
 
 @media screen and (max-width:768px) {
@@ -6991,14 +6957,14 @@ button.toast-close-button {
 
 .sidebar-user-info .user-profile span {
     display: inline-block;
-    color: #979898;
+    color: #666;
     vertical-align: middle
 }
 
 .sidebar-user-info .user-profile span strong {
     display: block;
     font-size: 21px;
-    color: #fff;
+    color: #5095d5;
     font-weight: 300
 }
 
@@ -7006,7 +6972,7 @@ button.toast-close-button {
     display: table;
     width: 100%;
     table-layout: fixed;
-    border-top: 1px solid #323435;
+    border-top: 1px solid #e1e1e1;
     margin: 0
 }
 
@@ -7021,22 +6987,22 @@ button.toast-close-button {
 .sidebar-user-info .user-links li a {
     display: block;
     text-align: center;
-    color: #979898;
+    color: #666;
     padding: 10px
 }
 
 .sidebar-user-info .user-links li a:hover {
-    color: #fff;
-    background-color: rgba(50, 52, 53, .25)
+    color: #5095d5;
+    background-color: rgba(80, 149, 213, .1)
 }
 
 .sidebar-user-info .user-links li.active a {
-    color: #fff;
-    background-color: rgba(50, 52, 53, .25)
+    color: #5095d5;
+    background-color: rgba(80, 149, 213, .1)
 }
 
 .sidebar-user-info .user-links li+li a {
-    border-left: 1px solid #323435
+    border-left: 1px solid #e1e1e1
 }
 
 .sidebar-user-info+.main-menu {
