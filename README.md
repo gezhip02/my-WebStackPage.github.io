@@ -1,186 +1,185 @@
-Webstack网址导航
+Webstack Website Navigation
 ===
 ### Demo: [➡️ www.webstack.cc](https://webstack.cc)
 
-QQ群交流：304584722 ; QQ交流群2：740911918
+QQ Discussion Groups: 304584722 ; QQ Discussion Group 2: 740911918
 
-本项目这是一个网址导航网站，内容均由[viggo](https://www.viggoz.com)收集并整理。本项目前端基于bootstrap前端框架开发，各后台及主题版本由广大网友提供。
+This project is a website navigation platform, with content collected and organized by [viggo](https://www.viggoz.com). The frontend is developed based on the bootstrap framework, and various backend and theme versions are provided by the community.
 
-下面提供了多种主题及后台版本供大家选择，感谢各位GitHub网友无私贡献🙏，具体各版本后台使用方法请查看对应的开源说明文档！
+Below are multiple themes and backend versions for you to choose from. Thanks to all GitHub contributors for their selfless contributions 🙏. Please check the corresponding open source documentation for specific usage instructions for each version!
 
-注意⚠️：以下webstack所有项目均为开源项目，webstack没有任何Pro版本或专业版本！
+Note ⚠️: All webstack projects below are open source projects. Webstack does not have any Pro version or professional version!
 
 ![](http://www.webstack.cc/assets/images/preview.gif)
 
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。如果你有任何疑问，可以通过个人网站[viggoz.com](https://www.viggoz.com)中的联系方式找到我，欢迎与我交流分享。
+This is an open source public welfare project. You can use it to create your own website navigation or build websites unrelated to navigation. If you have any questions, you can find me through the contact information on my personal website [viggoz.com](https://www.viggoz.com). I welcome communication and sharing.
 
-声明
+Statement
 ===
-"一导航"未经允许推出的“Webstack Pro 版本”付费导航主题，跟本项目没有任何关系，在此解答[类似 Issues](https://github.com/WebStackPage/WebStackPage.github.io/issues/89)，已经和该公司多次沟通，该公司始终没有移除所有“Webstack Pro”相关名称，在这里郑重声明。
-目前 Webstack 已经有数十种完全免费开源后端版本，数十位共建者在维护本项目，本项目尊重各位共建者劳动成果实现盈利，但不鼓励任何盗用 **WebstackPro** 名义盈利的行为。
+The "Webstack Pro Version" paid navigation theme launched by "YiDaoHang" without permission has no connection with this project. This answers [similar Issues](https://github.com/WebStackPage/WebStackPage.github.io/issues/89). We have communicated with the company multiple times, but they have not removed all "Webstack Pro" related names. Here is a formal statement.
+Currently, Webstack has dozens of completely free and open source backend versions, with dozens of contributors maintaining this project. While this project respects the right of contributors to profit from their work, we do not encourage any profit-making behavior that misappropriates the name **WebstackPro**.
 
 ![](https://github.com/WebStackPage/WebStackPage.github.io/blob/master/assets/images/webstack_no_pro.png)
 
-欢迎加群一起学习交流技术
+Welcome to join our groups to learn and exchange technical knowledge
 ---
-|Q群(304584722)|Q群2(740911918)|
+|QQ Group(304584722)|QQ Group 2(740911918)|
 |--|--|
 |![](http://www.webstack.cc/assets/images/qqgroup_webstack.jpg)|![](http://www.webstack.cc/assets/images/qqgroup_webstack2.jpg)|
 
-怎么用?
+How to use?
 ---
-你可以像我一样直接使用静态托管形式，如果你需要一个后台系统方便管理，可以参考下面的第二第三种解决方案：
-#### 方法1. 使用静态托管
-最简单快速上线自己的导航网站，你可以直接**下载**本项目修改内容既可部署上线。
+You can use static hosting directly like I do. If you need a backend system for convenient management, you can refer to the second and third solutions below:
 
-#### 方法2. 使用 Wordpress 主题搭建系统🔥(感谢[@owen0o0](https://github.com/hui-ho)提供)
-开源地址：https://github.com/owen0o0/WebStack
+#### Method 1. Use Static Hosting
+The simplest and quickest way to launch your own navigation website is to directly **download** this project, modify the content, and deploy it.
 
-**注意：付费版本和本项目没任何关系，售后问题请找作者** 
+#### Method 2. Use WordPress Theme to Build System 🔥(Thanks to [@owen0o0](https://github.com/hui-ho))
+Open source address: https://github.com/owen0o0/WebStack
 
-#### 方法3. 使用基于 Laravel 搭建的后台系统🔥(感谢[@hui-ho](https://github.com/hui-ho)提供)
-开源地址：https://github.com/hui-ho/WebStack-Laravel
+**Note: The paid version has no relation to this project. Please contact the author for after-sales issues**
 
-Docker部署版本:https://hub.docker.com/r/arvon2014/webstack-laravel
+#### Method 3. Use backend system based on Laravel 🔥(Thanks to [@hui-ho](https://github.com/hui-ho))
+Open source address: https://github.com/hui-ho/WebStack-Laravel
 
-#### 方法4. Hexo主题  
-开源地址： https://github.com/HCLonely/hexo-theme-webstack
+Docker deployment version: https://hub.docker.com/r/arvon2014/webstack-laravel
 
-#### 方法5.1 Hugo主题一🔥
-开源地址：https://github.com/shenweiyan/WebStack-Hugo
+#### Method 4. Hexo theme
+Open source address: https://github.com/HCLonely/hexo-theme-webstack
 
-安装说明：https://www.yuque.com/shenweiyan/cookbook/webstack-hugo
+#### Method 5.1 Hugo theme one 🔥
+Open source address: https://github.com/shenweiyan/WebStack-Hugo
 
-#### 方法5.2 Hugo主题二
-开源地址： https://github.com/iplaycode/webstack-hugo
+Installation instructions: https://www.yuque.com/shenweiyan/cookbook/webstack-hugo
 
-主题演示： https://iplaycode.github.io/nav/
+#### Method 5.2 Hugo theme two
+Open source address: https://github.com/iplaycode/webstack-hugo
 
-#### 方法6. 基于Java开发的后台系统🔥(感谢[@jsnjfz](https://github.com/jsnjfz)提供)
-开源地址：https://github.com/jsnjfz/WebStack-Guns
+Theme demo: https://iplaycode.github.io/nav/
 
-#### 方法7. springboot后台 Nikati-WebStack-Guns ❤️ (感谢[Nikati \(Nikati\)](https://github.com/Nikati)提供)
-开源地址：https://github.com/Nikati/WebStack-Guns-NKT
+#### Method 6. Backend system based on Java 🔥(Thanks to [@jsnjfz](https://github.com/jsnjfz))
+Open source address: https://github.com/jsnjfz/WebStack-Guns
 
-#### 方法8.1 使用 Jekyll 版本的后台🔥(感谢[@0xl2oot](https://github.com/0xl2oot)提供)
-开源地址：[https://github.com/0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)
+#### Method 7. springboot backend Nikati-WebStack-Guns ❤️ (Thanks to [Nikati (Nikati)](https://github.com/Nikati))
+Open source address: https://github.com/Nikati/WebStack-Guns-NKT
 
-#### 方法8.2 从Chrome书签生成Jekyll版本配置的工具
-体验网址： https://w.hanxi.info/convert.html
+#### Method 8.1 Use Jekyll backend 🔥(Thanks to [@0xl2oot](https://github.com/0xl2oot))
+Open source address: [https://github.com/0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)
 
-开源地址： https://github.com/hanxi/webstack-jekyll
+#### Method 8.2 Tool to generate Jekyll version configuration from Chrome bookmarks
+Experience address: https://w.hanxi.info/convert.html
 
-#### 方法9.1 钻芒二开Typecho主题
-开源地址：https://www.zmki.cn/5366.html
+Open source address: https://github.com/hanxi/webstack-jekyll
 
-比较详细的安装教程：https://www.waoww.com/typecho-theme/zmki-webstack.html
+#### Method 9.1 Zmki two open Typecho theme
+Open source address: https://www.zmki.cn/5366.html
 
-预览地址：https://tool.zmki.cn/
+More detailed installation tutorial: https://www.waoww.com/typecho-theme/zmki-webstack.html
 
-#### 方法9.2 SEOGO二开Typecho主题
-开源地址：[https://www.seogo.me/muban/webstack.html](https://www.seogo.me/muban/webstack.html)
+Preview address: https://tool.zmki.cn/
 
-#### 方法10. 静态博客Gridea主题 
-开源地址: https://github.com/lmm214/gridea-theme-webstack
+#### Method 9.2 SEOGO two open Typecho theme
+Open source address: [https://www.seogo.me/muban/webstack.html](https://www.seogo.me/muban/webstack.html)
 
-在线预览: https://edui.fun/
+#### Method 10. Static blog Gridea theme
+Open source address: https://github.com/lmm214/gridea-theme-webstack
 
-#### 方法11. VUE版本
-开源地址: https://github.com/Anjaxs/WebStack-vue/tree/master
+Online preview: https://edui.fun/
 
-#### 方法12. flask-blog-platform
-开源地址: https://github.com/shitianfang/flask-blog-platform/tree/master
+#### Method 11. VUE version
+Open source address: https://github.com/Anjaxs/WebStack-vue/tree/master
 
-#### 方法13. 基于 Golang 开发的后台系统🔥 Webstack-Go (感谢[@ch3nnn](https://github.com/ch3nnn)提供)
-开源地址: https://github.com/ch3nnn/webstack-go
+#### Method 12. flask-blog-platform
+Open source address: https://github.com/shitianfang/flask-blog-platform/tree/master
 
-#### 方法14. 自己写后台系统
-可以按照自己的喜好和框架搭建后台系统，也可以参考我设计好的后台框架自行搭建。本站设计开发过程在我的博客文章有详细讲到[《webstack \| viggo》](http://blog.viggoz.com/2018/01/03/2018-01-03-webstack/)。静态源码（半成品）：[https://github.com/WebStackPage/webstack-Admin](https://github.com/WebStackPage/webstack-Admin)
+#### Method 13. Backend system based on Golang 🔥 Webstack-Go (Thanks to [@ch3nnn](https://github.com/ch3nnn))
+Open source address: https://github.com/ch3nnn/webstack-go
 
-如果你有更好的解决方案，并且能够开源供大家使用，可以在本项目提Issus，或者直接通过我个人网站中的联系方式联系我。
+#### Method 14. Custom backend system
+You can build a backend system according to your preferences and framework, or refer to my designed backend framework to build it. The design and development process of this site is detailed in my blog article [《webstack \| viggo》](http://blog.viggoz.com/2018/01/03/2018-01-03-webstack/)。Static source code (half-finished): [https://github.com/WebStackPage/webstack-Admin](https://github.com/WebStackPage/webstack-Admin)
+
+If you have a better solution and can open source it for everyone to use, you can submit an Issus in this project or contact me directly through the contact information on my personal website.
 
 JUST DOWNLOAD AND DO WHAT THE FUCK YOU WANT TO.
 
-
-
-关于图片资源
+About Image Resources
 ---
-```/assets/images/logos/default.png``` 这是网站标签的默认图标
+```/assets/images/logos/default.png``` This is the default icon for website tags
 
-```/assets/images/logos``` 这里是所有网站内的图标切图，尺寸均为120px*120px
+```/assets/images/logos``` Here are all the icon cuts within the website, with dimensions of 120px*120px
 
-```/assets/webstack_logos.sketch``` 这是网站标签收录的所有图标设计源文件，你可以在这里[下载](https://WebStackPage.github.io/assets/webstack_logos.sketch) 。打开前请确认Sketch版本高于50.2(55047)
+```/assets/webstack_logos.sketch``` This is the design source file for all icons collected in the website tags. You can [download](https://WebStackPage.github.io/assets/webstack_logos.sketch) it here. Please ensure your Sketch version is higher than 50.2(55047) before opening.
 
-优秀项目示例
+Outstanding Project Examples
 ---
-本项目开源已经有一年多，陆续有很多小伙伴使用这个主题制作了自己的导航网站，下面列出了一些我知道的基于webstack或者使用webstack主题开发的项目，都是做的比较好的一些小伙伴，供大家借鉴。也欢迎各位开发者把自己的项目加进来~ 发 Pull Request 或 Issue 即可 
-（入选标准：必须是webstack项目相关的网站）
+This project has been open source for more than a year, and many contributors have used this theme to create their own navigation websites. Below are some projects I know of that are based on webstack or developed using the webstack theme. These are all well-done examples for reference. Developers are welcome to add their own projects~ Just send a Pull Request or Issue
+(Selection criteria: Must be webstack project-related websites)
 
-| 状态 | 网站名 | 网址 |
+| Status | Website Name | URL |
 | --- | --- | --- |
-| ✅已上线 | 狼牌工作网址导航 | [https://www.volf.club/](https://www.volf.club/) |
-| ✅已上线 | 广告人导航 - 广告没门 | [https://adnodoor.com/nav/](https://adnodoor.com/nav/) |
-| ✅已上线 | 互联网资源库房 | [库房369-互联网资源库房](https://kf369.cn/) |
-| ✅已上线 | ShareHub - 资源和工具的集合 | [https://www.gezhipu.com/cn/index.html](https://www.gezhipu.com/cn/index.html) |
-| ✅已上线 | 程序员网址导航 | [https://web.hujiangtao.cn/](https://web.hujiangtao.cn/) |
-| 🕗开发中 | PMGEEK | [http://pmgeek.net/](http://pmgeek.net/) |
-| ❌已下线 | 造作家 | [造作家](https://www.hitsz.top/) |
-| ❌已下线 | 谢週五の导航站 | [谢週五の导航站 - 5nav.ml](https://5nav.ml/) |
-| ❌已下线 | 码灵导航 - 一个帮助开发者成长的程序员网址导航 | [https://nav.imaring.com/](https://nav.imaring.com/) |
-| ❌已下线 | 币门 | [币门 通向加密货币之门](https://www.bimen.com/) |
-| ❌已下线 | 聚BT - 聚合最优质的BT、磁力资源 | [聚BT - 聚合最优质的BT、磁力资源](https://www.jubt.net/cn/index.html) |
-| ❌已下线 | Azt's 导航网站 | [Azt's 导航网站](https://bookmark.cwenyu.net/) |
-| ❌已下线 | moshuxv | [moshuxv.xyz](https://moshuxv.xyz/) |
-| ❌已下线 | 高效搜罗 - 精准的职业导航 | [http://gaoxiaosouluo.cn/](http://gaoxiaosouluo.cn/) |
-| ❌已下线 | 卖家大全 - 最全卖家导航 | [http://maijiadaquan.com/](http://maijiadaquan.com/) |
-| ❌已下线 | 魔米导航 | [魔米导航 - 精品网址导航](http://www.nmomi.com/) |
-| ❌已下线 | 电力行业的网站导航 | [万家灯火，有你有我](http://zhiliaopower.cn/) |
-| ❌已下线 | 域名购买&域名商场&行业导航 | [http://www.yichushou.com/](http://www.yichushou.com/) |
-| ❌已下线 | 杏map | [http://xx-map.com/](http://xx-map.com/) |
-| ❌已下线 | DreamThere - 梦想导航 | [https://nav.dreamthere.com/](https://nav.dreamthere.com/) |
-| ❌已下线 | JKnear导航 - 建筑结构设计导航 | [http://jk.jknear.com:777/](http://jk.jknear.com:777/) |
-| ❌已下线 | site navigation – QAOZEN | [https://qaozen.com/nav/](https://qaozen.com/nav/) |
-| ❌已下线 | 我的收藏夹 - 个人网址导航站 | [https://www.kukiliao.com/](https://www.kukiliao.com/) |
-| ❌已下线 | vv.lc - 网址导航 | [http://vv.lc/](http://vv.lc/) |
-| ❌已下线 |Pandaroll.cn 网址导航 | [Pandaroll\.cn 网址导航](http://pandaroll.cn/cn/index.html) |
-| ❌已下线 | Link - 我的网址收藏夹 | [Link - 我的网址收藏夹](https://link.jianrry.com) |
-| ❌已下线 | 77导航 | [77导航](https://nav.dig77.com/) |
-| ❌已下线 | 牛导航 - 实用工具导航 | [http://ziliao6.com/](http://ziliao6.com/) |
-| ❌已下线 | QAdoc - 测试工作者导航 | [http://nav.qadoc.org/cn/index.html](http://nav.qadoc.org/cn/index.html) |
-| ❌已下线 | t.hiihi | [http://t.hiihi.cn/](http://t.hiihi.cn/) |
-| ❌已下线 | hytale导航 | [https://www.hytale-nav.com/](https://www.hytale-nav.com/) |
-| ❌已下线 |英阅导航 | [英阅网址导航](http://enreading.ishare20.net/) |
-| ❌已下线 |小猪猪导航 | [小猪猪导航](http://xzz11.xyz/cn/index.html) |
-| ❌已下线 |有钱导航 | [有钱导航](http://www.youqiandaohang.com/) |
-| ❌已下线 |创意探手导航 | [创意探手导航](http://tans119.com/) |
-| ❌已下线 |126云导航 | [126云导航 \- 最好用的浏览器主页](http://www.126yun.cn//) |
-| ❌已下线 |qiqijiavip | [http://www.qiqijiavip.com](http://www.qiqijiavip.com) |
-| ❌已下线 | zou0 | [http://www.zou0.com/cn/index.html](http://www.zou0.com/cn/index.html) |
-| ❌已下线 | Matrix Navigation | [Matrix Navigation \-](https://navi.sh-oo.com/) |
-| ❌已下线 | lerso.cn | [http://lerso.cn/](http://lerso.cn/) |
-| ❌已下线 | dh.wdj.pw | [WebStack\.cc \- 设计师网址导航](https://dh.wdj.pw/cn/index.html) |
-| ❌已下线 | wukandy.cn | [https://wukandy.cn/](https://wukandy.cn/) |
-| ❌已下线 | 奇客数码导航 - 专注IT自媒体导航网站 | [https://nav.qikepai.cn/](https://nav.qikepai.cn/) |
-| ❌已下线 | 7299导航 | [https://www.mmbbao.com/](https://www.mmbbao.com/) |
-| ❌已下线 | 东莞理工学习导航 | [http://gd.dgut.top/cn/index2.html](http://gd.dgut.top/cn/index2.html) |
-| ❌已下线 | Dapp公园 | [http://xdapp.pw/](http://xdapp.pw/) |
-| ❌已下线 | zero-null | [https://zero-null.github.io/works/cn/index.html](https://zero-null.github.io/works/cn/index.html) |
-| ❌已下线 | alabom.top | [http://alabom.top/cn/index.html](http://alabom.top/cn/index.html) |
-| ❌已下线 | 水木清华 | [水木清华](https://www.open985.com/) |
-| ❌已下线 | 新媒体百宝箱 | [新媒体百宝箱](https://www.xmtbbx.com/) |
-| ❌已下线 | 酸奶 - 广告运营从业者类别导航 | [酸奶 \- 专注广告运营从业者类别导航](http://about.edu233.cn/) |
-| ❌已下线 | AVI导航 - 一键到达好去处 | [https://www.avi101.com/](https://www.avi101.com/) |
-| ❌已下线 | 京东运营网址导航 | [http://miyue1980.com/](http://miyue1980.com/) |
-| ❌已下线 | 快导航 - 简单的网址导航大全 | [https://wukandy.cn/](https://wukandy.cn/) |
-| ❌已下线 | 喵帕斯 - 喵帕斯导航页 | [http://naspro.cc/](http://naspro.cc/) |
-| ❌已下线 | tool - wxuegao | [http://tool.wxuegao.com/](http://tool.wxuegao.com/) |
-| ❌已下线 | 浮生论坛 \- 念念不忘，必有回响 | [浮生论坛 \- 念念不忘，必有回响](https://fusfun.club/cn/index.html) |
+| ✅Already online | Wolf Work Website Navigation | [https://www.volf.club/](https://www.volf.club/) |
+| ✅Already online | Advertising Person Navigation - Advertising Door | [https://adnodoor.com/nav/](https://adnodoor.com/nav/) |
+| ✅Already online | Internet Resource Library | [Library 369-Internet Resource Library](https://kf369.cn/) |
+| ✅Already online | ShareHub - Collection of Resources and Tools | [https://www.gezhipu.com/cn/index.html](https://www.gezhipu.com/cn/index.html) |
+| ✅Already online | Programmer Website Navigation | [https://web.hujiangtao.cn/](https://web.hujiangtao.cn/) |
+| 🕗Development in progress | PMGEEK | [http://pmgeek.net/](http://pmgeek.net/) |
+| ❌Already offline | Zaojiazuo | [Zaojiazuo](https://www.hitsz.top/) |
+| ❌Already offline | Xie Zhouwu's Navigation Station | [Xie Zhouwu's Navigation Station - 5nav.ml](https://5nav.ml/) |
+| ❌Already offline | Code Spirit Navigation - A Programmer Website Navigation to Help Developers Grow | [https://nav.imaring.com/](https://nav.imaring.com/) |
+| ❌Already offline | Coin Door - The Door to Cryptocurrency | [Coin Door - The Door to Cryptocurrency](https://www.bimen.com/) |
+| ❌Already offline | JuBT - Juhe's Best BT and Magnetic Resource Collection | [JuBT - Juhe's Best BT and Magnetic Resource Collection](https://www.jubt.net/cn/index.html) |
+| ❌Already offline | Azt's Navigation Website | [Azt's Navigation Website](https://bookmark.cwenyu.net/) |
+| ❌Already offline | moshuxv | [moshuxv.xyz](https://moshuxv.xyz/) |
+| ❌Already offline | Efficient Search - Accurate Career Navigation | [http://gaoxiaosouluo.cn/](http://gaoxiaosouluo.cn/) |
+| ❌Already offline | Seller's Full - The Most Comprehensive Seller Navigation | [http://maijiadaquan.com/](http://maijiadaquan.com/) |
+| ❌Already offline | MoMi Navigation | [MoMi Navigation - High-Quality Website Navigation](http://www.nmomi.com/) |
+| ❌Already offline | Website Navigation for the Power Industry | [Thousands of Lights, You and Me](http://zhiliaopower.cn/) |
+| ❌Already offline | Domain Name Purchase & Domain Shopping & Industry Navigation | [http://www.yichushou.com/](http://www.yichushou.com/) |
+| ❌Already offline | Xingmap | [http://xx-map.com/](http://xx-map.com/) |
+| ❌Already offline | DreamThere - Dream Navigation | [https://nav.dreamthere.com/](https://nav.dreamthere.com/) |
+| ❌Already offline | JKnear Navigation - Architectural Structure Design Navigation | [http://jk.jknear.com:777/](http://jk.jknear.com:777/) |
+| ❌Already offline | site navigation – QAOZEN | [https://qaozen.com/nav/](https://qaozen.com/nav/) |
+| ❌Already offline | My Collection - Personal Website Navigation Station | [https://www.kukiliao.com/](https://www.kukiliao.com/) |
+| ❌Already offline | vv.lc - Website Navigation | [http://vv.lc/](http://vv.lc/) |
+| ❌Already offline |Pandaroll.cn Website Navigation | [Pandaroll\.cn Website Navigation](http://pandaroll.cn/cn/index.html) |
+| ❌Already offline | Link - My Website Bookmark Collection | [Link - My Website Bookmark Collection](https://link.jianrry.com) |
+| ❌Already offline | 77 Navigation | [77 Navigation](https://nav.dig77.com/) |
+| ❌Already offline | Cattle Navigation - Practical Tool Navigation | [http://ziliao6.com/](http://ziliao6.com/) |
+| ❌Already offline | QAdoc - Test Worker Navigation | [http://nav.qadoc.org/cn/index.html](http://nav.qadoc.org/cn/index.html) |
+| ❌Already offline | t.hiihi | [http://t.hiihi.cn/](http://t.hiihi.cn/) |
+| ❌Already offline | hytale Navigation | [https://www.hytale-nav.com/](https://www.hytale-nav.com/) |
+| ❌Already offline | English Reading Navigation | [English Reading Website Navigation](http://enreading.ishare20.net/) |
+| ❌Already offline | Piggy Navigation | [Piggy Navigation](http://xzz11.xyz/cn/index.html) |
+| ❌Already offline | Money Navigation | [Money Navigation](http://www.youqiandaohang.com/) |
+| ❌Already offline | Creative Exploration Navigation | [Creative Exploration Navigation](http://tans119.com/) |
+| ❌Already offline | 126 Cloud Navigation | [126 Cloud Navigation \- The Best Browser Home Page](http://www.126yun.cn//) |
+| ❌Already offline | qiqijiavip | [http://www.qiqijiavip.com](http://www.qiqijiavip.com) |
+| ❌Already offline | zou0 | [http://www.zou0.com/cn/index.html](http://www.zou0.com/cn/index.html) |
+| ❌Already offline | Matrix Navigation | [Matrix Navigation \-](https://navi.sh-oo.com/) |
+| ❌Already offline | lerso.cn | [http://lerso.cn/](http://lerso.cn/) |
+| ❌Already offline | dh.wdj.pw | [WebStack\.cc \- Designer Website Navigation](https://dh.wdj.pw/cn/index.html) |
+| ❌Already offline | wukandy.cn | [https://wukandy.cn/](https://wukandy.cn/) |
+| ❌Already offline | Qikepai Digital Navigation - Focused IT Media Navigation Website | [https://nav.qikepai.cn/](https://nav.qikepai.cn/) |
+| ❌Already offline | 7299 Navigation | [https://www.mmbbao.com/](https://www.mmbbao.com/) |
+| ❌Already offline | Dongguan Polytechnic Learning Navigation | [http://gd.dgut.top/cn/index2.html](http://gd.dgut.top/cn/index2.html) |
+| ❌Already offline | Dapp Park | [http://xdapp.pw/](http://xdapp.pw/) |
+| ❌Already offline | zero-null | [https://zero-null.github.io/works/cn/index.html](https://zero-null.github.io/works/cn/index.html) |
+| ❌Already offline | alabom.top | [http://alabom.top/cn/index.html](http://alabom.top/cn/index.html) |
+| ❌Already offline | Waterwood Qinghua | [Waterwood Qinghua](https://www.open985.com/) |
+| ❌Already offline | New Media Treasure Chest | [New Media Treasure Chest](https://www.xmtbbx.com/) |
+| ❌Already offline | Yogurt - Advertising Operations Industry Navigation | [Yogurt \- Focused Advertising Operations Industry Navigation](http://about.edu233.cn/) |
+| ❌Already offline | AVI Navigation - One-Click Access to Good Places | [https://www.avi101.com/](https://www.avi101.com/) |
+| ❌Already offline | JD Operation Website Navigation | [http://miyue1980.com/](http://miyue1980.com/) |
+| ❌Already offline | Quick Navigation - Simple Website Navigation | [https://wukandy.cn/](https://wukandy.cn/) |
+| ❌Already offline | Miao Pas - Miao Pas Navigation Page | [http://naspro.cc/](http://naspro.cc/) |
+| ❌Already offline | tool - wxuegao | [http://tool.wxuegao.com/](http://tool.wxuegao.com/) |
+| ❌Already offline | Floating Life Forum \- Never Forget, There Will Be Echoes | [Floating Life Forum \- Never Forget, There Will Be Echoes](https://fusfun.club/cn/index.html) |
 ## License
 
 Copyright © 2017-2023 **[webstack.cc](https://webstack.cc)** Released under the **MIT License**.
 
-> 注：本站开源的目的是大家能够在本站的基础之上有所启发，做出更多新的东西。并不是让大家照搬所有代码。
-> 如果你使用这个开源项目，请**注明**本项目开源地址。
+> Note: The purpose of this open source project is to allow everyone to be inspired on this site to create more new things. It is not to allow everyone to copy all the code.
+> If you use this open source project, please **cite** the open source address of this project.
 
 Screenshot 📷
 ---
