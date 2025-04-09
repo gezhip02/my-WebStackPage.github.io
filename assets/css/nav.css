@@ -65,3 +65,87 @@
 .img-circle {
     padding: 7px 0;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2c2e2f;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.back-to-top:hover {
+    background-color: #303436;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.back-to-top i {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.language-switcher .dropdown-toggle {
+    padding: 8px 15px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.language-switcher .dropdown-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.language-switcher .dropdown-toggle img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.language-switcher .dropdown-toggle .fa-angle-down {
+    margin-left: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.language-switcher .dropdown-menu {
+    min-width: 160px;
+    margin-top: 5px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.language-switcher .dropdown-menu li a {
+    padding: 8px 15px;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.language-switcher .dropdown-menu li a img {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.language-switcher .dropdown-menu li:hover a {
+    background: #f5f5f5;
+}
+
+.language-switcher .dropdown-menu li.active a {
+    background: #f0f0f0;
+    color: #000;
+    font-weight: 500;
+}
